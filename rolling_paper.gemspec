@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["brknig11@gmail.com", "benmlewis@gmail.com", "benhorne44@gmail.com", "pequickster@gmail.com"]
   spec.description   = "Consume leafly API"
   spec.summary       = "Gather strain information"
-  spec.homepage      = "github.com/fluxusfrequency/milehigh"
+  spec.homepage      = "https://github.com/BryanaKnight/rolling_paper"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
