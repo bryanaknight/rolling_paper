@@ -1,6 +1,6 @@
 # RollingPaper
 
-TODO: Write a gem description
+A gem that allows you to interface with the [Leafly](http://www.leafly.com/) API. Gives you access to strain information including names, categories and descriptions. 
 
 ## Installation
 
@@ -16,9 +16,6 @@ Or install it yourself as:
 
     $ gem install rolling_paper
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
