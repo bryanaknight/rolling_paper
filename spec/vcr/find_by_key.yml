@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.leafly.com/api/details/ak-47
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 22 Jan 2014 22:01:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1072'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Wed, 22 Jan 2014 23:01:10 GMT
+      Last-Modified:
+      - Wed, 22 Jan 2014 22:01:10 GMT
+      Vary:
+      - '*'
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJLZXkiOiJhay00NyIsIk5hbWUiOiJBSy00NyIsIkNhdGVnb3J5IjoiSHli
+        cmlkIiwiU3ltYm9sIjoiQWsiLCJBYnN0cmFjdCI6IkEgZ3JlYXQgYWZnaGFu
+        aSBrdXNoIGNhbm5hYmlzIHN0cmFpbiB0aGF0IGlzIG1vc3RseSBzYXRpdmEg
+        YnV0IGhhcyBhbGwgdGhlIGdvb2QgaW5kaWNhIGJvZHkgc3RvbmUgY2hhcmFj
+        dGVyaXN0aWNzLiAgR29vZCBmb3IgbWFueSBtZWRpY2luYWwgdXNlcyBidXQg
+        b3ZlcmRvaW5nIGl0IHdpbGwgbGVhdmUgeW91IGdsdWVkIHRvIHRoZSBjb3Vj
+        aC4gICIsIk92ZXJ2aWV3IjoiRG9uXHUwMDI3dCBsZXQgdGhlIHNjYXJ5IG5h
+        bWUgZm9vbCB5b3UsIEFLLTQ3IHdpbGwgbGVhdmUgeW91IHJlbGF4ZWQgYW5k
+        IG1lbGxvdy4gwqBHZW5lcmFsbHkgYSBzdHJhaW4gdGhhdCBjb250YWlucyBh
+        IGhpZ2ggYW1vdW50IG9mIFRIQyBncmVhdCBmb3IgaGFuZ2luZyBvdXQgd2l0
+        aCBmcmllbmRzIGFuZCB3YXRjaGluZyBtb3ZpZXMuIMKgTmV3YmllcyBiZSBj
+        YXJlZnVsLCB0b28gbXVjaCBhbmQgeW91IHdpbGwgZW5kIHVwIGdsdWVkIHRv
+        IHRoZSBjb3VjaC4iLCJVcmwiOiJodHRwOi8vd3d3LmxlYWZseS5jb20vaHli
+        cmlkL2FrLTQ3IiwiUmF0ZVVybCI6Imh0dHA6Ly93d3cubGVhZmx5LmNvbS9t
+        ZS9jcmVhdGUvYWstNDciLCJSYXRpbmciOjcuODMsIkVmZmVjdHMiOlt7Ik5h
+        bWUiOiJFdXBob3JpYyIsIlNjb3JlIjo3Mn0seyJOYW1lIjoiSGFwcHkiLCJT
+        Y29yZSI6NzB9LHsiTmFtZSI6IlNsZWVweSIsIlNjb3JlIjo1Nn0seyJOYW1l
+        IjoiQ3JlYXRpdmUiLCJTY29yZSI6NTN9LHsiTmFtZSI6IlJlbGF4ZWQiLCJT
+        Y29yZSI6NTF9XSwiTWVkaWNhbCI6W3siTmFtZSI6IkFueGlldHkiLCJTY29y
+        ZSI6NDN9LHsiTmFtZSI6Ik1pZ3JhaW5lcyIsIlNjb3JlIjoxOX0seyJOYW1l
+        IjoiQUREL0FESEQiLCJTY29yZSI6OX0seyJOYW1lIjoiUE1TIiwiU2NvcmUi
+        OjJ9LHsiTmFtZSI6IkFzdGhtYSIsIlNjb3JlIjoxfV0sIk5lZ2F0aXZlIjpb
+        eyJOYW1lIjoiRHJ5IE1vdXRoIiwiU2NvcmUiOjc4fSx7Ik5hbWUiOiJEcnkg
+        RXllcyIsIlNjb3JlIjo1Mn0seyJOYW1lIjoiRGl6enkiLCJTY29yZSI6MzB9
+        LHsiTmFtZSI6IlBhcmFub2lkIiwiU2NvcmUiOjE2fSx7Ik5hbWUiOiJIZWFk
+        YWNoZSIsIlNjb3JlIjoxMH1dLCJSZXZpZXdzIjpbeyJEYXRlQWRkZWQiOiJc
+        L0RhdGUoMTM4MTY5OTgyOTIyNylcLyIsIkJ1enpMZW5ndGgiOjAsIlJhdGlu
+        ZyI6MTAsIk5vdGVzIjoiTGlrZSBJIHNhaWQgYWZ0ZXIgSSBmaXJzdCBzbW9r
+        ZWQgaXQsIGl0IGdvdCBiZXR0ZXIgYWZ0ZXIgYSBmZXcgbW9yZSB0aW1lcy5c
+        bkEgZ3JlYXQgc3RyYWluIGZvciBhIG5pY2UgY3JlYXRpdmUgaGlnaC4ifSx7
+        IkRhdGVBZGRlZCI6IlwvRGF0ZSgxMzgxNjk5NzIzODM0KVwvIiwiQnV6ekxl
+        bmd0aCI6MCwiUmF0aW5nIjoxMCwiTm90ZXMiOiJXaGVuIEkgZmlyc3QgdHJp
+        ZWQgdGhpcyBzdHJhaW4gSSBmZWx0IHN1cGVyIGhpZ2gsIHRoYW4gSSBzbW9r
+        ZWQgaXQgYSBjb3VwbGUgbW9yZSB0aW1lcyBhbmQgbG92ZWQgc21va2luZyBp
+        dC4gSXQgd2FzIGFib3V0IGEgZ29vZCAxIGhyLCAxIGhyIDEvMiBoaWdoLiJ9
+        LHsiRGF0ZUFkZGVkIjoiXC9EYXRlKDEzODE1NTMwMTgwNzEpXC8iLCJCdXp6
+        TGVuZ3RoIjowLCJSYXRpbmciOjEsIk5vdGVzIjoiSG9uZXN0bHkgdGhpcyBz
+        aHh0IGlzIGdyZWF0LiBDYW4gbWFrZSB5b3UgdmVyeSB0YWxrYXRpdmUsIGVu
+        dGh1c2lhc3RpYyBpZiB5b3UgYXJlIGFyb3VuZCB0aGUgcmlnaHQgcGVvcGxl
+        LiBUaGlzIGJ1enogY2FuIGVhc2lseSBiZSBraWxsZWQgYnkgaGFuZ2luZyB3
+        aXRoIGEgY3Jvd2QgdGhhdCBpcyBub3QgcmVhbGx5IHdpbGxpbmcgdG8gZG8g
+        dGhlIHRoaW5ncyB5b3UgYXJlLiBHcmVhdCBjaGlsbCwgcmFwIGtpbmRhIGhp
+        Z2guIn0seyJEYXRlQWRkZWQiOiJcL0RhdGUoMTM4MTM2Mjc5NjY5MilcLyIs
+        IkJ1enpMZW5ndGgiOjAsIlJhdGluZyI6NywiTm90ZXMiOiIifSx7IkRhdGVB
+        ZGRlZCI6IlwvRGF0ZSgxMzgxMzcwNDM4NjYyKVwvIiwiQnV6ekxlbmd0aCI6
+        MCwiUmF0aW5nIjo4LCJOb3RlcyI6IlZlcnkgbWVsbG93IHN0cmFpbi4gWW91
+        IGNhbiBmZWVsIHRoZSBvYnZpb3VzIHNhdGl2YSBkb21pbmFudCBpbiB0aGlz
+        IGh5YnJpZCBhcyB5b3VyIGJvZHkgZ2V0cyB2ZXJ5IHJlbGF4ZWQsIGJ1dCB0
+        aGVyZSBpcyBzdGlsbCBhIHZlcnkgYXBwYXJlbnQgSW5kaWNhIHBhcmVudCBp
+        biB0aGlzIGJ5IGdpdmluZyB5b3UgYSBmbG9hdGluZyBoZWFkL2JvZHkgaGln
+        aC4ifV19
+    http_version: 
+  recorded_at: Wed, 22 Jan 2014 22:01:10 GMT
+recorded_with: VCR 2.8.0
